@@ -1,0 +1,26 @@
+{
+  "name": "pdfassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pdftron/pdfnet-node": "^9.3.0",
+    "@pdftron/pdfnet-node-samples": "^9.3.0",
+    "browser": "^0.2.6",
+    "browserify": "^17.0.0",
+    "buffer": "^6.0.3",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "html-pdf": "^3.0.1",
+    "hummus": "^1.0.110",
+    "pdf2json": "^2.0.1",
+    "pdfkit": "^0.13.0"
+  }
+}
